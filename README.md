@@ -1,3 +1,9 @@
+based on https://www.youtube.com/watch?v=yfHHvmaMkcA&list=PPSV
+create openai token
+create astra datastax vector db
+connect openai with astra using token
+
+
 To get started
 
 ## Create a virtual environment
@@ -25,16 +31,5 @@ In the future, to deactivate venv
 ## Install dependencies
 pip install -r requirements.txt
 
-## Run flask
-flask run --debug
---debug is for live reload
-OR
-python app.py
-
-
-## Flask and Jinja Web Server
-
-## jrw@mit.edu
-
-Add Bootstrap Navigation and image upload
-New routes addbook, addimage
+## To save dependencies into requirements.txt
+pip freeze > requirements.txt
